@@ -1,0 +1,32 @@
+System
+    Role
+        Tutorial
+
+users
+ - pharmacy staff 
+ - nurses 
+
+use cases: 
+- quick reference guides at point of using 
+    - delivered by links or qr codes direct to tutorial 
+    e.g. a link direct to nursing profile or to specific Tutorial
+- search for any topic that is meta tagged
+- admin role to edit tutorials and add new 
+
+media: 
+- video tutorials linked from youtube
+- faq guides
+    - imgaes? where are they stored 
+
+Functions: 
+- search all tutorials and display
+- select system then system then tutorial
+- display videos
+- display images 
+- render html based tutorials
+- user can suggest back 
+- saveable as progressive web app
+
+requirememts: 
+- WYSIWYG editor
+- image storage 
