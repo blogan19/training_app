@@ -14,16 +14,16 @@
             "tutorial_id": "2",
             "tutorial_name":"how to prescribe a beta blocker",
             "tutorial_type": "text",
-            "url": "A beta blocker can be prescribed whenever you want",
+            "url": "",
             "tags": ["bisoprolol","beta blockers"],
-            "content": ""
+            "content": "A beta blocker can be prescribed whenever you want"
         },{
             "tutorial_id": "3",
             "tutorial_name":"how to prescribe a protocol",
             "tutorial_type": "text",
             "url": "",
             "tags": ["bisoprolol","beta blockers"],
-            "content": "<b>protocols</b> are prescribable under the protocol tab"
+            "content": "protocols are prescribable under the protocol tab"
         }
 
     ]
@@ -43,13 +43,13 @@
             "tutorial_id": "2",
             "tutorial_name":"missed doses",
             "tutorial_type": "text",
-            "url": "missing doses isnt good",
+            "url": "",
             "tags": ["missed doses"],
-            "content": ""
+            "content": "missing doses isnt good"
         },{
             "tutorial_id": "2",
             "tutorial_name":"How to order a medications",
-            "tutorial_type": "text",
+            "tutorial_type": "video",
             "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
             "tags": ["order medication"],
             "content": ""
@@ -65,14 +65,14 @@
             "tutorial_id": "1",
             "tutorial_name":"reset a password",
             "tutorial_type": "text",
-            "url": "https://www.youtube.com/embed/8VX2F5oQqyk",
+            "url": "",
             "tags": ["password"],
-            "content": "this is test content"
+            "content": "reset a password by talking to the EPMA team"
         },  {
             "tutorial_id": "2",
             "tutorial_name":"completing training",
             "tutorial_type": "video",
-            "url": "https://www.youtube.com/embed/8VX2F5oQqyk",
+            "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
             "tags": ["training"],
             "content": ""
         }

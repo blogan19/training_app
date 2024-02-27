@@ -58,10 +58,11 @@ export default function Tutorial({data,chapter,tutorialId}) {
                 </Breadcrumbs>
                 <h2>{chapter}</h2>
                 <h4>{tutorial['tutorial_name']}</h4>
+                <div>
               {
-                tutorialType == 'text' ? tutorial['content'] : ''
+                tutorialType == 'text' ? ( tutorial['content']): ''
               }
-              
+              </div>
               {
                 tutorialType == 'video' ? (
                     <div className='video-wrapper'>
