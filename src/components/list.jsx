@@ -74,7 +74,9 @@ export default function TutorialList(props) {
                             <AccordionDetails>
                             <Typography>
                                 {                             
-                                    x['tutorial_type'] == 'text' ? x['content'] : ''
+                                    x['tutorial_type'] == 'text' ? (
+                                        <div dangerouslySetInnerHTML={{__html: x['content']}} />  
+                                    ) : ''
                                 }
                                 {
                                     x['tutorial_type'] == 'video' ? (

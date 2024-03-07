@@ -67,7 +67,7 @@ const App = () => {
   return (      
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <SearchAppBar resetTiles={resetTiles} setSearch={setSearch}/>
+        <SearchAppBar resetTiles={resetTiles} setSearch={setSearch} help_info={content.help_info}/>
           { 
             directChapter === null && searchTerm === "" ? (
               <>

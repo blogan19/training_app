@@ -1,82 +1,108 @@
-{"data" : [{
-    "chapter":"Prescribing",
-    "description":"Information for all prescribers",
-    "icon": "bi bi-prescription",
-    "subcategories" : [
-        {
-            "tutorial_id": "1",
-            "tutorial_name":"To prescribe amlodipine",
-            "tutorial_type": "text",
-            "url": "https://www.youtube.com/embed?v=czhknRdzTzs",
-            "tags": ["test","amlodipine","calcium channel blockers"],
-            "content": "this is test content"
-        },{
-            "tutorial_id": "2",
-            "tutorial_name":"how to prescribe a beta blocker",
-            "tutorial_type": "text",
-            "url": "",
-            "tags": ["bisoprolol","beta blockers"],
-            "content": "A beta blocker can be prescribed whenever you want"
-        },{
-            "tutorial_id": "3",
-            "tutorial_name":"how to prescribe a protocol",
-            "tutorial_type": "text",
-            "url": "",
-            "tags": ["bisoprolol","beta blockers"],
-            "content": "protocols are prescribable under the protocol tab"
-        }
+{
+    
+    "help_info": "<p>This app provides information on how to use the prescribing system</p><p>Find a tutorial using the menu options or alternatively use the search bar</p>",
+    "data" : [{
+        "chapter":"Prescribing",
+        "description":"Information for all prescribers",
+        "icon": "bi bi-prescription",
+        "subcategories" : [
+            {
+                "tutorial_id": "1",
+                "tutorial_name":"To prescribe amlodipine",
+                "tutorial_type": "text",
+                "url": "https://www.youtube.com/embed?v=czhknRdzTzs",
+                "tags": ["test","amlodipine","calcium channel blockers"],
+                "content": "this is test content"
+            },{
+                "tutorial_id": "2",
+                "tutorial_name":"how to prescribe a beta blocker",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["bisoprolol","beta blockers"],
+                "content": "A beta blocker can be prescribed whenever you want"
+            },{
+                "tutorial_id": "3",
+                "tutorial_name":"how to prescribe a protocol",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["bisoprolol","beta blockers"],
+                "content": "<p><strong>protocols</strong> are prescribable under the protocol tab</p>"
+            }
 
-    ]
-},{
-    "chapter":"Administration",
-    "description":"Administration information",
-    "icon":"bi bi-capsule-pill",
-    "subcategories" : [
-        {
-            "tutorial_id": "1",
-            "tutorial_name":"How to administer a drug",
-            "tutorial_type": "text",
-            "url": "",
-            "tags": ["administrations"],
-            "content": "Drugs can be adminstered "
-        },  {
-            "tutorial_id": "2",
-            "tutorial_name":"missed doses",
-            "tutorial_type": "text",
-            "url": "",
-            "tags": ["missed doses"],
-            "content": "missing doses isnt good"
-        },{
-            "tutorial_id": "2",
-            "tutorial_name":"How to order a medications",
-            "tutorial_type": "video",
-            "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
-            "tags": ["order medication"],
-            "content": ""
-        }
+        ]
+    },{
+        "chapter":"Administration",
+        "description":"Administration information",
+        "icon":"bi bi-capsule-pill",
+        "subcategories" : [
+            {
+                "tutorial_id": "1",
+                "tutorial_name":"How to administer a drug",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["administrations"],
+                "content": "Drugs can be adminstered "
+            },  {
+                "tutorial_id": "2",
+                "tutorial_name":"missed doses",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["missed doses"],
+                "content": "missing doses is not very good <table><tr><th colspan='2'>Tables can be used</th><tr><td>test</td><td>test</td></tr><tr><td>test</td><td>test</td></tr></table>"
+            },{
+                "tutorial_id": "2",
+                "tutorial_name":"How to order a medications",
+                "tutorial_type": "video",
+                "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
+                "tags": ["order medication"],
+                "content": ""
+            }
 
-    ]
-},{
-    "chapter":"User Accounts",
-    "description":"Information on resetting passwords",
-    "icon":"bi bi-capsule-pill",
-    "subcategories" : [
-        {
-            "tutorial_id": "1",
-            "tutorial_name":"reset a password",
-            "tutorial_type": "text",
-            "url": "",
-            "tags": ["password"],
-            "content": "reset a password by talking to the EPMA team"
-        },  {
-            "tutorial_id": "2",
-            "tutorial_name":"completing training",
-            "tutorial_type": "video",
-            "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
-            "tags": ["training"],
-            "content": ""
-        }
+        ]
+    },{
+        "chapter":"User Accounts",
+        "description":"Information on resetting passwords",
+        "icon":"bi bi-person-circle",
+        "subcategories" : [
+            {
+                "tutorial_id": "1",
+                "tutorial_name":"reset a password",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["password"],
+                "content": "reset a password by talking to the EPMA team"
+            },  {
+                "tutorial_id": "2",
+                "tutorial_name":"completing training",
+                "tutorial_type": "video",
+                "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
+                "tags": ["training"],
+                "content": ""
+            }
 
+        ]
+    },{
+        "chapter":"4th Tile",
+        "description":"A 4th tile will wrap around. You can have as many tiles as needed",
+        "icon":"bi bi-person-circle",
+        "subcategories" : [
+            {
+                "tutorial_id": "1",
+                "tutorial_name":"reset a password",
+                "tutorial_type": "text",
+                "url": "",
+                "tags": ["password"],
+                "content": "reset a password by talking to the EPMA team"
+            },  {
+                "tutorial_id": "2",
+                "tutorial_name":"completing training",
+                "tutorial_type": "video",
+                "url": "https://www.youtube.com/embed?v=j0rxp6rRT28",
+                "tags": ["training"],
+                "content": ""
+            }
+
+        ]
+    }    
     ]
-}   
-]}
+}
